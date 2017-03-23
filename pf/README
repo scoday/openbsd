@@ -1,0 +1,12 @@
+Manipulate with pfctl
+
+pfctl -t sshmeisters -T add 116.31.116.16
+
+THIS ^^ will also create a new one if it doesn't exist.
+
+List the added ips
+
+pfctl -t sshmeisters -T show
+
+* -v can be used with -T to show stats
+
